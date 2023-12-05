@@ -7,9 +7,9 @@ const salt = 10;
 const emailjs = require("@emailjs/nodejs");
 
 //for todays date
-// const currentDate = new Date();
+const currentDate = new Date();
 //for adding months
-const currentDate = new Date(new Date().setMonth(new Date().getMonth() + 70));
+// const currentDate = new Date(new Date().setMonth(new Date().getMonth() + 70));
 console.log(currentDate)
 //for adding day and month
 // const today = new Date(new Date().setMonth(new Date().getMonth() + 12));
